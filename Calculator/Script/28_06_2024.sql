@@ -81,13 +81,10 @@ BEGIN
 	END      
 END  
 -----------------------------------------------------------------------------------  
-
-INSERT [dbo].[Users] ([FirstName], [LastName], [EmailId], [Password], [PasswordSalt]) VALUES ( N'Ritesh', N'Patel', N'ritesh@gmail.com', N'CmU1YSjLlwEz3PdOCnvy7TDxKJViyBk22HOlngAprMkmbxhCCOVjlR4Q33ZIypP8tDcgfj+BwGl/2dzk236vQNzcx/AeJPL8SVH9Ra7bvsB/sTO6azqg0kOEnghwzYoVkAN/FZ7pWbRd9Sj0g1Rnj2JaZeHB+FugFg/lTy744BwWianJg0Itcx75aKcg3VZw', 
+Go
+INSERT [dbo].[Users] ([FirstName], [LastName], [EmailId], [Password], [PasswordSalt]) VALUES ( N'Admin', N'Patel', N'admin@gmail.com', N'CmU1YSjLlwEz3PdOCnvy7TDxKJViyBk22HOlngAprMkmbxhCCOVjlR4Q33ZIypP8tDcgfj+BwGl/2dzk236vQNzcx/AeJPL8SVH9Ra7bvsB/sTO6azqg0kOEnghwzYoVkAN/FZ7pWbRd9Sj0g1Rnj2JaZeHB+FugFg/lTy744BwWianJg0Itcx75aKcg3VZw', 
 N'aaDkQ0Pyf4WpwMdyQmk8/iGt7xBnYJcxwB99o3+47wDn3wBZoyd15/6RPOTDUUJog/bqCnsWweG7dUiYjoOb8bMlZvQBfu8SjOJUxvyMVQE=')
------------------------------------------------------------------------------------
-
---update users set Password='CmU1YSjLlwEz3PdOCnvy7TDxKJViyBk22HOlngAprMkmbxhCCOVjlR4Q33ZIypP8tDcgfj+BwGl/2dzk236vQNzcx/AeJPL8SVH9Ra7bvsB/sTO6azqg0kOEnghwzYoVkAN/FZ7pWbRd9Sj0g1Rnj2JaZeHB+FugFg/lTy744BwWianJg0Itcx75aKcg3VZw',
---PasswordSalt='aaDkQ0Pyf4WpwMdyQmk8/iGt7xBnYJcxwB99o3+47wDn3wBZoyd15/6RPOTDUUJog/bqCnsWweG7dUiYjoOb8bMlZvQBfu8SjOJUxvyMVQE='
+Go
 -----------------------------------------------------------------------------------
 Create PROCEDURE [dbo].[SP_Insert_Calculate_History]    
 @FirstValue float ,

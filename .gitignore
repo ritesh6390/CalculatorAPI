@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Cal.Common/bin/Debug/net7.0
+/Cal.Common/obj
+/Cal.Data/bin/Debug/net7.0
+/Cal.Data/obj
+/Cal.Model/bin/Debug/net7.0
+/Cal.Model/obj
+/Cal.Service/bin/Debug/net7.0
+/Cal.Service/obj
+/Calculator/bin/Debug/net7.0
+/Calculator/.vs
+/Calculator/obj
